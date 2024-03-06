@@ -1,0 +1,6 @@
+name: My Team Member Module
+description: "Provides a custom content type for team members."
+type: module
+core_version_requirement: ^8 || ^9 || ^10
+autoload:
+  path: src

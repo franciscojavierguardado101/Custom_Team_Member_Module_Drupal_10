@@ -1,0 +1,4 @@
+my_team_member.info.yml: Similar to the previous examples, updated with the autoload section specifying the src folder for autoloading.
+src/Entity/TeamMember.php: Defines the TeamMember entity class extending ContentEntityBase. It includes code for defining base fields, pre-creation logic, entity type information, 
+and uses an entity_reference field to link a single image for the team member's photo.
+src/TeamMember.module (optional): Similar to the previous examples, it defines hooks for creating the "team_member" bundle and avoids defining field information again, relying on the TeamMember class definition.
